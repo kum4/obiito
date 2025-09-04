@@ -1,0 +1,66 @@
+# ------------------------------
+# Unreal Engine .gitignore
+# ------------------------------
+
+# Binaries and build artifacts
+Binaries/
+Build/
+Intermediate/
+Saved/
+DerivedDataCache/
+Engine/DerivedDataCache/
+Mesh/
+Config/
+
+# Visual Studio
+.vs/
+.vscode/
+*.sln
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+
+# Compiled source
+*.obj
+*.pdb
+*.exe
+*.dll
+*.lib
+*.app
+*.dylib
+*.exp
+*.ipa
+
+# Precompiled headers
+*.pch
+*.idb
+*.ipdb
+*.iobj
+
+# Crash reports and logs
+*.log
+*.dmp
+*.tmp
+*.bak
+
+# OS junk files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# Config files that should remain local
+Config/DefaultEditor.ini
+Config/DefaultEditorPerProjectUserSettings.ini
+
+# Optional: ignore generated project files
+*.xcodeproj
+*.xcworkspace
+
+# OS-specific (optional)
+*~
+.AppleDouble
+.LSOverride
